@@ -1,4 +1,4 @@
-# vscode-monorepo-autoimport-repro
+# VSCode Monorepo Autoimport Broken Repro
 A monorepo's TS autoimport doesn't work in VSCode. https://github.com/microsoft/TypeScript/pull/38923#issuecomment-970549122
 
 ## Screenshots
