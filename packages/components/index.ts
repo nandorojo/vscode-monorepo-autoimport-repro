@@ -1,6 +1,7 @@
-export {};
+export const testHere = 1;
 
-// this doesn't autoimport from 'react'
+// 🚨 this doesn't autoimport from 'react'
 // even though 'react' is a dependency of 'apps/nextjs'
-// if you add "react: *" to "peerDependencies" of the root package.json, it does work.
-const context = createContext({});
+// if you add "react: *" to "peerDependencies"/"devDependencies" of root package.json, it works
+
+const context = createContext(null);

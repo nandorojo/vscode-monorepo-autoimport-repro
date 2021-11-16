@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "strictNullChecks": true,
-    "paths": { 
+    "paths": {
       "@repo/*": ["./packages/*"]
     },
     "allowSyntheticDefaultImports": true,
@@ -13,10 +13,5 @@
     "strict": true,
     "experimentalDecorators": true,
     "noUnusedLocals": false
-  },
-  "include": [
-    "./packages",
-    "./node_modules/@types/react",
-    "./node_modules/@types/react-native"
-  ]
+  }
 }
