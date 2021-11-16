@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictNullChecks": true,
+    "paths": { 
+      "@repo/*": ["./packages/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": false
+  },
+  "include": [
+    "./packages",
+    "./node_modules/@types/react",
+    "./node_modules/@types/react-native"
+  ]
+}
