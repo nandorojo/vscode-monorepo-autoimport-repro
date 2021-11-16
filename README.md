@@ -29,3 +29,10 @@ This doesn't match runtime behavior.
 
 Add `"@types/react": "*"` to root `package.json`. This is bad though: the root package shouldn't have dependencies like that.
 
+## Attempted solutions
+
+Adding a `tsconfig` to the `packages/*` did not help.
+
+## Related discussion
+
+See https://github.com/microsoft/TypeScript/pull/38923#issuecomment-970509969
