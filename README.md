@@ -1,6 +1,8 @@
 # vscode-monorepo-autoimport-repro
 A monorepo's TS autoimport doesn't work in VSCode. https://github.com/microsoft/TypeScript/pull/38923#issuecomment-970549122
 
+## Screenshots
+
 🚨 Look in `packages/components/index.ts`. If you open this in `VSCode`, you'll see that `createContext` does not autoimport.
 
 <img width="1101" alt="Screen Shot 2021-11-16 at 2 07 42 PM" src="https://user-images.githubusercontent.com/13172299/142049610-0aa32b60-a956-4d53-a0e1-7f3d2236601e.png">
