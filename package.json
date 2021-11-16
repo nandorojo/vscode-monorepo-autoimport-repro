@@ -4,8 +4,7 @@
     "apps/*"
   ],
   "devDependencies": {
-    "typescript": "^4.4.4",
-    "react": "*"
+    "typescript": "^4.4.4"
   },
   "name": "repo",
   "private": true
