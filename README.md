@@ -3,7 +3,11 @@ A monorepo's TS autoimport doesn't work in VSCode. https://github.com/microsoft/
 
 🚨 Look in `packages/components/index.ts`. If you open this in `VSCode`, you'll see that `createContext` does not autoimport.
 
+<img width="1101" alt="Screen Shot 2021-11-16 at 2 07 42 PM" src="https://user-images.githubusercontent.com/13172299/142049610-0aa32b60-a956-4d53-a0e1-7f3d2236601e.png">
+
 ✅ Meanwhile, importing the same variable in `apps/nextjs/pages/index.ts` works fine.
+
+ <img width="923" alt="Screen Shot 2021-11-16 at 2 07 24 PM" src="https://user-images.githubusercontent.com/13172299/142049563-86b2c028-1077-42cb-855f-65951cacb173.png">
 
 This is coming from `@types/react`.
 
